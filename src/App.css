@@ -32,3 +32,11 @@ body{
 h2{
   background-color: antiquewhite;
 }
+
+@media screen and (max-width:780px){
+  .grid{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 0.3em;
+  }
+}
